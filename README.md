@@ -18,4 +18,4 @@
 
 # Deployment
 
-```parcel build src/index.html && gh-pages -d dist```
+```parcel build src/index.html --public-url /ci-cd-sample-app-v1 && gh-pages -d dist```
