@@ -10,8 +10,12 @@
 
 # Quality check
 
-```eslint src/app.js```
+```eslint src/*.js```
 
 # Run unit tests
 
 ```jest```
+
+# Deployment
+
+```parcel build src/index.html && git subtree push --prefix dist origin gh-pages```
