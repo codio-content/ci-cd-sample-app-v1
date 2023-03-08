@@ -18,4 +18,4 @@
 
 # Deployment
 
-```parcel build src/index.html && git subtree push --prefix dist origin gh-pages```
+```parcel build src/index.html && gh-pages --dist dist --branch gh-pages```
