@@ -18,4 +18,4 @@
 
 # Deployment
 
-```parcel build src/index.html && gh-pages --dist dist --branch gh-pages```
+```parcel build src/index.html && gh-pages -d dist```
